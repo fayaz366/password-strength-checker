@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  width: 300px;
+  text-align: center;
+}
+
+input[type="password"] {
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+  margin-bottom: 15px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+
+#strength {
+  font-weight: bold;
+}
+
+#strength-value.weak {
+  color: red;
+}
+
+#strength-value.medium {
+  color: orange;
+}
+
+#strength-value.strong {
+  color: green;
+}
